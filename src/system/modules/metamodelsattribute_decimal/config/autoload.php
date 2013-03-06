@@ -10,16 +10,25 @@
  * @package     MetaModels
  * @subpackage  AttributeDecimal
  * @author      Christian Schiffler <c.schiffler@cyberspectrum.de>
+ * @author      Andreas Isaak <info@andreas-isaak.de>
  * @copyright   The MetaModels team.
  * @license     LGPL.
  * @filesource
  */
 
 /**
- * Table tl_metamodel_attribute 
+ * Register the classes
  */
-
-$GLOBALS['TL_DCA']['tl_metamodel_attribute']['metapalettes']['decimal extends _simpleattribute_'] = array
+ClassLoader::addClasses(array
 (
-//	'+display' => array('titleField after name')
-);
+	'MetaModelAttributeDecimal'              => 'system/modules/metamodelsattribute_decimal/MetaModelAttributeDecimal.php',
+));
+
+
+/**
+ * Register the templates
+ */
+TemplateLoader::addFiles(array
+(
+	'mm_attr_decimal'              => 'system/modules/metamodelsattribute_decimal/templates',
+));

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The MetaModels extension allows the creation of multiple collections of custom items,
  * each with its own unique set of selectable attributes, with attribute extendability.
@@ -6,17 +7,13 @@
  * data in each collection.
  *
  * PHP version 5
- * @package	   MetaModels
- * @subpackage AttributeDecimal
- * @author     Christian Schiffler <c.schiffler@cyberspectrum.de>
- * @copyright  The MetaModels team.
- * @license    LGPL.
+ * @package     MetaModels
+ * @subpackage  AttributeDecimal
+ * @author      Christian Schiffler <c.schiffler@cyberspectrum.de>
+ * @copyright   The MetaModels team.
+ * @license     LGPL.
  * @filesource
  */
-if (!defined('TL_ROOT'))
-{
-	die('You cannot access this file directly!');
-}
 
 /**
  * This is the MetaModelAttribute class for handling text fields.
@@ -27,7 +24,6 @@ if (!defined('TL_ROOT'))
  */
 class MetaModelAttributeDecimal extends MetaModelAttributeSimple
 {
-
 	public function getSQLDataType()
 	{
 		// TODO: is the default value here really a wise idea?
@@ -52,5 +48,3 @@ class MetaModelAttributeDecimal extends MetaModelAttributeSimple
 		return $arrFieldDef;
 	}
 }
-
-?>

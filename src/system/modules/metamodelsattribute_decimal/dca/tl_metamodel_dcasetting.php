@@ -7,29 +7,26 @@
  * data in each collection.
  *
  * PHP version 5
- * @package	   MetaModels
- * @subpackage AttributeDecimal
- * @author     Christian Schiffler <c.schiffler@cyberspectrum.de>
- * @copyright  The MetaModels team.
- * @license    LGPL.
+ * @package     MetaModels
+ * @subpackage  AttributeDecimal
+ * @author      Christian Schiffler <c.schiffler@cyberspectrum.de>
+ * @copyright   The MetaModels team.
+ * @license     LGPL.
  * @filesource
  */
 
-$GLOBALS['TL_DCA']['tl_metamodel_dcasetting']['metasubselectpalettes']['attr_id']['decimal'] =
-array
+$GLOBALS['TL_DCA']['tl_metamodel_dcasetting']['metasubselectpalettes']['attr_id']['decimal'] = array
 (
-    'presentation' => array(
-        'tl_class',       
-    ),
-    'functions'  => array(
-        'mandatory',
-    ),
-	'overview' => array(		
+	'presentation' => array(
+		'tl_class',
+	),
+	'functions'  => array(
+		'mandatory',
+	),
+	'overview' => array(
 		'filterable',
 		'searchable',
 		'sortable',
 		'flag'
 	)
 );
-
-?>
