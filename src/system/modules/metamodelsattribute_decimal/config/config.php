@@ -15,8 +15,5 @@
  * @filesource
  */
 
-$GLOBALS['METAMODELS']['attributes']['decimal'] = array
-(
-	'class' => 'MetaModelAttributeDecimal',
-	'image' => 'system/modules/metamodelsattribute_decimal/html/decimal.png'
-);
+$GLOBALS['METAMODELS']['attributes']['decimal']['class'] = 'MetaModelAttributeDecimal';
+$GLOBALS['METAMODELS']['attributes']['decimal']['image'] = 'system/modules/metamodelsattribute_decimal/html/decimal.png';
