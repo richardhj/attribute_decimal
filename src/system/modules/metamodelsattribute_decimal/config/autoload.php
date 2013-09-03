@@ -22,7 +22,7 @@ ClassLoader::addClasses(array
 (
 	'MetaModels\Attribute\Decimal\Decimal' => 'system/modules/metamodelsattribute_decimal/MetaModels/Attribute/Decimal/Decimal.php',
 
-	'MetaModelAttributeDecimal'            => 'system/modules/metamodelsattribute_decimal/MetaModelAttributeDecimal.php',
+	'MetaModelAttributeDecimal'            => 'system/modules/metamodelsattribute_decimal/deprecated/MetaModelAttributeDecimal.php',
 ));
 
 
