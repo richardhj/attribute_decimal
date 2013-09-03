@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The MetaModels extension allows the creation of multiple collections of custom items,
  * each with its own unique set of selectable attributes, with attribute extendability.
@@ -17,3 +16,7 @@
 
 $GLOBALS['METAMODELS']['attributes']['decimal']['class'] = 'MetaModelAttributeDecimal';
 $GLOBALS['METAMODELS']['attributes']['decimal']['image'] = 'system/modules/metamodelsattribute_decimal/html/decimal.png';
+
+// non composerized Contao 2.X autoload support.
+$GLOBALS['MM_AUTOLOAD'][] = dirname(__DIR__);
+$GLOBALS['MM_AUTOLOAD'][] = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'deprecated';

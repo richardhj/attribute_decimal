@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The MetaModels extension allows the creation of multiple collections of custom items,
  * each with its own unique set of selectable attributes, with attribute extendability.
@@ -21,7 +20,9 @@
  */
 ClassLoader::addClasses(array
 (
-	'MetaModelAttributeDecimal'              => 'system/modules/metamodelsattribute_decimal/MetaModelAttributeDecimal.php',
+	'MetaModels\Attribute\Decimal\Decimal' => 'system/modules/metamodelsattribute_decimal/MetaModels/Attribute/Decimal/Decimal.php',
+
+	'MetaModelAttributeDecimal'            => 'system/modules/metamodelsattribute_decimal/MetaModelAttributeDecimal.php',
 ));
 
 

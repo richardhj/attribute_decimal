@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The MetaModels extension allows the creation of multiple collections of custom items,
  * each with its own unique set of selectable attributes, with attribute extendability.
@@ -15,14 +14,18 @@
  * @filesource
  */
 
+namespace MetaModels\Attribute\Decimal;
+
+use MetaModels\Attribute\BaseSimple;
+
 /**
  * This is the MetaModelAttribute class for handling text fields.
  *
- * @package	   MetaModels
+ * @package    MetaModels
  * @subpackage AttributeDecimal
  * @author     Christian Schiffler <c.schiffler@cyberspectrum.de>
  */
-class MetaModelAttributeDecimal extends MetaModelAttributeSimple
+class Decimal extends BaseSimple
 {
 	public function getSQLDataType()
 	{
@@ -42,9 +45,10 @@ class MetaModelAttributeDecimal extends MetaModelAttributeSimple
 
 	public function getFieldDefinition($arrOverrides = array())
 	{
-		$arrFieldDef=parent::getFieldDefinition($arrOverrides);
-		$arrFieldDef['inputType'] = 'text';
+		$arrFieldDef                 = parent::getFieldDefinition($arrOverrides);
+		$arrFieldDef['inputType']    = 'text';
 		$arrFieldDef['eval']['rgxp'] = 'digit';
+
 		return $arrFieldDef;
 	}
 }
