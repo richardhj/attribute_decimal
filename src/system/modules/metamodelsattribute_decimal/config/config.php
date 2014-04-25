@@ -16,7 +16,3 @@
 
 $GLOBALS['METAMODELS']['attributes']['decimal']['class'] = 'MetaModels\Attribute\Decimal\Decimal';
 $GLOBALS['METAMODELS']['attributes']['decimal']['image'] = 'system/modules/metamodelsattribute_decimal/html/decimal.png';
-
-// non composerized Contao 2.X autoload support.
-$GLOBALS['MM_AUTOLOAD'][] = dirname(__DIR__);
-$GLOBALS['MM_AUTOLOAD'][] = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'deprecated';

@@ -16,17 +16,6 @@
  */
 
 /**
- * Register the classes
- */
-ClassLoader::addClasses(array
-(
-	'MetaModels\Attribute\Decimal\Decimal' => 'system/modules/metamodelsattribute_decimal/MetaModels/Attribute/Decimal/Decimal.php',
-
-	'MetaModelAttributeDecimal'            => 'system/modules/metamodelsattribute_decimal/deprecated/MetaModelAttributeDecimal.php',
-));
-
-
-/**
  * Register the templates
  */
 TemplateLoader::addFiles(array
