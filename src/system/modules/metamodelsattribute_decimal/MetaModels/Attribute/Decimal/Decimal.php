@@ -27,12 +27,17 @@ use MetaModels\Attribute\BaseSimple;
  */
 class Decimal extends BaseSimple
 {
+	/**
+	 * {@inheritDoc}
+	 */
 	public function getSQLDataType()
 	{
-		// TODO: is the default value here really a wise idea?
 		return 'double NULL default NULL';
 	}
 
+	/**
+	 * {@inheritDoc}
+	 */
 	public function getAttributeSettingNames()
 	{
 		return array_merge(parent::getAttributeSettingNames(), array(
@@ -43,6 +48,9 @@ class Decimal extends BaseSimple
 		));
 	}
 
+	/**
+	 * {@inheritDoc}
+	 */
 	public function getFieldDefinition($arrOverrides = array())
 	{
 		$arrFieldDef                 = parent::getFieldDefinition($arrOverrides);
