@@ -1,7 +1,7 @@
 {
 	"name":"metamodels/attribute_decimal",
 	"description":"MetaModels attribute for decimal values",
-	"keywords":["contao", "metamodels", "attribute", "decimal"],
+	"keywords":["contao", "metamodels", "attribute", "decimal", "nontranslatable"],
 	"type":"contao-module",
 	"homepage":"http://now.metamodel.me/",
 	"license":"LGPL-3.0+",
@@ -60,18 +60,18 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"MetaModels": "src/system/modules/metamodelsattribute_decimal"
+			"MetaModels": "src"
 		}
 	},
 	"extra":{
 		"contao": {
 			"symlinks":{
-				"src/system/modules/metamodelsattribute_decimal":"system/modules/metamodelsattribute_decimal"
+				"contao":"system/modules/metamodelsattribute_decimal"
 			},
 			"transifex": {
 				"project": "metamodels",
 				"prefix": "attribute_decimal-",
-				"languages_cto": "src/system/modules/metamodelsattribute_decimal/languages",
+				"languages_cto": "contao/languages",
 				"languages_tx": ".tx"
 			}
 		},
