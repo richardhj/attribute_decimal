@@ -23,7 +23,7 @@ function includeIfExists($file)
 }
 
 if (
-    // Locally installed dependencies
+    // Locally installed dependencies.
     (!$loader = includeIfExists(__DIR__.'/../vendor/autoload.php'))
     // We are within an composer install.
     && (!$loader = includeIfExists(__DIR__.'/../../../autoload.php'))) {

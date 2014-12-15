@@ -28,36 +28,40 @@ use MetaModels\Attribute\BaseSimple;
  */
 class Decimal extends BaseSimple
 {
-	/**
-	 * {@inheritDoc}
-	 */
-	public function getSQLDataType()
-	{
-		return 'double NULL default NULL';
-	}
+    /**
+     * {@inheritDoc}
+     */
+    public function getSQLDataType()
+    {
+        return 'double NULL default NULL';
+    }
 
-	/**
-	 * {@inheritDoc}
-	 */
-	public function getAttributeSettingNames()
-	{
-		return array_merge(parent::getAttributeSettingNames(), array(
-			'filterable',
-			'searchable',
-			'sortable',
-			'flag'
-		));
-	}
+    /**
+     * {@inheritDoc}
+     */
+    public function getAttributeSettingNames()
+    {
+        return array_merge(
+            parent::getAttributeSettingNames(),
+            array(
+                'filterable',
+                'searchable',
+                'sortable',
+                'flag'
+            )
+        );
+    }
 
-	/**
-	 * {@inheritDoc}
-	 */
-	public function getFieldDefinition($arrOverrides = array())
-	{
-		$arrFieldDef                 = parent::getFieldDefinition($arrOverrides);
-		$arrFieldDef['inputType']    = 'text';
-		$arrFieldDef['eval']['rgxp'] = 'digit';
+    /**
+     * {@inheritDoc}
+     */
+    public function getFieldDefinition($arrOverrides = array())
+    {
+        $arrFieldDef = parent::getFieldDefinition($arrOverrides);
 
-		return $arrFieldDef;
-	}
+        $arrFieldDef['inputType']    = 'text';
+        $arrFieldDef['eval']['rgxp'] = 'digit';
+
+        return $arrFieldDef;
+    }
 }
