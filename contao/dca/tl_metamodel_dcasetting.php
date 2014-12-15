@@ -11,6 +11,10 @@
  * @package     MetaModels
  * @subpackage  AttributeDecimal
  * @author      Christian Schiffler <c.schiffler@cyberspectrum.de>
+ * @author      Andreas Isaak <andy.jared@googlemail.com>
+ * @author      Carolina M. Koehn <office@kikmedia.de>
+ * @author      Cliff Parnitzky <github@cliff-parnitzky.de>
+ * @author      Stefan Heimes <stefan_heimes@hotmail.com>
  * @copyright   The MetaModels team.
  * @license     LGPL.
  * @filesource

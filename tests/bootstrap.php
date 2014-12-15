@@ -9,7 +9,8 @@
  *
  * @package    MetaModels
  * @subpackage Tests
- * @author     Christian Schiffler <c.schiffler@cyberspectrum.de>
+ * @author      Christian Schiffler <c.schiffler@cyberspectrum.de>
+ * @author      Cliff Parnitzky <github@cliff-parnitzky.de>
  * @copyright  The MetaModels team.
  * @license    LGPL.
  * @filesource
