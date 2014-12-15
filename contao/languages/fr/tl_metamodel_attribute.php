@@ -11,5 +11,4 @@
  * last-updated: 2013-05-04T02:35:10+02:00
  */
 
-
 $GLOBALS['TL_LANG']['tl_metamodel_attribute']['typeOptions']['decimal'] = 'Décimal';

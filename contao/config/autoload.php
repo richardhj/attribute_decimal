@@ -6,6 +6,7 @@
  * data in each collection.
  *
  * PHP version 5
+ *
  * @package     MetaModels
  * @subpackage  AttributeDecimal
  * @author      Christian Schiffler <c.schiffler@cyberspectrum.de>
@@ -18,7 +19,9 @@
 /**
  * Register the templates
  */
-TemplateLoader::addFiles(array
-(
-	'mm_attr_decimal'              => 'system/modules/metamodelsattribute_decimal/templates',
-));
+TemplateLoader::addFiles(
+    array
+    (
+        'mm_attr_decimal' => 'system/modules/metamodelsattribute_decimal/templates',
+    )
+);

@@ -7,6 +7,7 @@
  * data in each collection.
  *
  * PHP version 5
+ *
  * @package     MetaModels
  * @subpackage  AttributeDecimal
  * @author      Christian Schiffler <c.schiffler@cyberspectrum.de>
@@ -18,4 +19,4 @@
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['tl_metamodel_attribute']['typeOptions']['decimal']    = 'Decimal';
+$GLOBALS['TL_LANG']['tl_metamodel_attribute']['typeOptions']['decimal'] = 'Decimal';

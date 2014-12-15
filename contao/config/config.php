@@ -15,5 +15,4 @@
  */
 
 $GLOBALS['METAMODELS']['attributes']['decimal']['class'] = 'MetaModels\Attribute\Decimal\Decimal';
-$GLOBALS['METAMODELS']['attributes']['decimal']['image'] =
-	'system/modules/metamodelsattribute_decimal/html/decimal.png';
+$GLOBALS['METAMODELS']['attributes']['decimal']['image'] = 'system/modules/metamodelsattribute_decimal/html/decimal.png';

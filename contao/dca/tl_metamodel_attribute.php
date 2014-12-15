@@ -7,16 +7,13 @@
  * data in each collection.
  *
  * PHP version 5
+ *
  * @package     MetaModels
  * @subpackage  AttributeDecimal
  * @author      Christian Schiffler <c.schiffler@cyberspectrum.de>
  * @copyright   The MetaModels team.
  * @license     LGPL.
  * @filesource
- */
-
-/**
- * Table tl_metamodel_attribute 
  */
 
 $GLOBALS['TL_DCA']['tl_metamodel_attribute']['metapalettes']['decimal extends _simpleattribute_'] = array();
