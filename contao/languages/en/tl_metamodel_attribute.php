@@ -7,16 +7,19 @@
  * data in each collection.
  *
  * PHP version 5
+ *
  * @package     MetaModels
  * @subpackage  AttributeDecimal
  * @author      Christian Schiffler <c.schiffler@cyberspectrum.de>
+ * @author      Andreas Isaak <andy.jared@googlemail.com>
+ * @author      Cliff Parnitzky <github@cliff-parnitzky.de>
+ * @author      Stefan Heimes <stefan_heimes@hotmail.com>
  * @copyright   The MetaModels team.
  * @license     LGPL.
  * @filesource
  */
 
 /**
- * Table tl_metamodel_attribute 
+ * Fields
  */
-
-$GLOBALS['TL_DCA']['tl_metamodel_attribute']['metapalettes']['decimal extends _simpleattribute_'] = array();
+$GLOBALS['TL_LANG']['tl_metamodel_attribute']['typeOptions']['decimal'] = 'Decimal';
