@@ -9,8 +9,8 @@
  *
  * @package    MetaModels
  * @subpackage Tests
- * @author      Christian Schiffler <c.schiffler@cyberspectrum.de>
- * @author      Cliff Parnitzky <github@cliff-parnitzky.de>
+ * @author     Christian Schiffler <c.schiffler@cyberspectrum.de>
+ * @author     Cliff Parnitzky <github@cliff-parnitzky.de>
  * @copyright  The MetaModels team.
  * @license    LGPL.
  * @filesource
@@ -33,5 +33,3 @@ if (
         'php composer.phar install'.PHP_EOL;
     exit(1);
 }
-
-$loader->add('MetaModels\Test', __DIR__);
