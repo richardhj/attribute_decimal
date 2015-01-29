@@ -48,8 +48,6 @@ class Decimal extends BaseSimple
             array(
                 'filterable',
                 'searchable',
-                'sortable',
-                'flag'
             )
         );
     }
