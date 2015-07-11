@@ -10,6 +10,8 @@
  * @package     MetaModels
  * @subpackage  AttributeDecimal
  * @author      Christian Schiffler <c.schiffler@cyberspectrum.de>
+ * @author      Andreas Isaak <info@andreas-isaak.de>
+ * @author      Cliff Parnitzky <github@cliff-parnitzky.de>
  * @copyright   The MetaModels team.
  * @license     LGPL.
  * @filesource
