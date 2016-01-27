@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of MetaModels/core.
+ * This file is part of MetaModels/attribute_decimal.
  *
  * (c) 2012-2015 The MetaModels team.
  *
@@ -12,8 +12,8 @@
  * @package    MetaModels
  * @subpackage AttributeDecimal
  * @author     Christian Schiffler <c.schiffler@cyberspectrum.de>
- * @copyright  2012-2015 The MetaModels team.
- * @license    https://github.com/MetaModels/core/blob/master/LICENSE LGPL-3.0
+ * @copyright  2012-2016 The MetaModels team.
+ * @license    https://github.com/MetaModels/attribute_decimal/blob/master/LICENSE LGPL-3.0
  * @filesource
  */
 

@@ -10,7 +10,7 @@
   ],
   "type": "contao-module",
   "homepage": "http://now.metamodel.me/",
-  "license": "LGPL-3.0+",
+  "license": "LGPL-3.0",
   "authors": [
     {
       "name": "Christian Schiffler",
