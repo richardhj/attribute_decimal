@@ -47,12 +47,12 @@
   },
   "autoload": {
     "psr-0": {
-      "MetaModels": "src"
+      "MetaModels\\Attribute\\Decimal\\": "src"
     }
   },
   "autoload-dev": {
     "psr-0": {
-      "MetaModels\\Test": "tests"
+      "MetaModels\\Test\\Attribute\\Decimal\\": "tests"
     }
   },
   "extra": {
