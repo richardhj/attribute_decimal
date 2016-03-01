@@ -46,6 +46,7 @@ class Decimal extends BaseSimple
         return array_merge(
             parent::getAttributeSettingNames(),
             array(
+                'isunique',
                 'mandatory',
                 'filterable',
                 'searchable',
