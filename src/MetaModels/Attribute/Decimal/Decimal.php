@@ -149,5 +149,5 @@ class Decimal extends BaseSimple
         $objIds = $this->getMetaModel()->getServiceContainer()->getDatabase()->execute($strSql);
 
         return $objIds->fetchEach('id');
-    }        
+    }
 }
